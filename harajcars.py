@@ -206,7 +206,7 @@ def app():
     adLinks(first,secroll)
 
     # print(f"Your link is: {first} ")
-    print(f"scroll times: {sec}")
+    print(f"scroll times: {secroll}")
     print("\n\n Executing details function:\n\n")
     adDetails()
 
