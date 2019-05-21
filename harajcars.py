@@ -54,7 +54,7 @@ def adDetails ():
 
 
                     # titre
-                    titre = header.find("h3").get_text('', strip=True)
+                    titre = header.find("h3").get_text('', strip=True).replace('»','')
 
                     print(titre)
 
